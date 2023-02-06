@@ -1,0 +1,45 @@
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body style="background-color:white;">
+<link rel="stylesheet" href="hw.css"> 
+    <audio id ="backgroundmusic" loop = "true"> 
+        <source src="music/background.mp3" type="audio/mpeg" > 
+    </audio>   
+    <audio id="eatmusic">
+        <source src="music/coin.mp3" type="audio/mpeg" >
+    </audio>
+    <audio id="gameovermusic" loop = false>
+        <source src="music/gameover.mp3" type="audio/mpeg" >
+    </audio>
+    <audio id="wallmusic">
+        <source src="music/wall.mp3" type="audio/mpeg" >
+    </audio>
+    <audio id="bombmusic">
+        <source src="music/bomb.mp3" type="audio/mpeg" >
+    </audio>
+    <span id="heart1" class="fa fa-heart" style="font-size:24px;padding:20px 5px 0px 20px;color: red;"></span>
+    <span id="heart2" class="fa fa-heart" style="font-size:24px;padding:20px 5px 0px;color: red;"></span>
+    <span id="heart3" class="fa fa-heart" style="font-size:24px;padding:20px 5px 0px;color: red;"></span>
+    <span id="heart4" class="fa fa-heart" style="font-size:24px;padding:20px 5px 0px;color: red;"></span>
+    <span id="heart5" class="fa fa-heart" style="font-size:24px;padding:20px 5px 0px ;color: red;"></span>
+    <span id="score" style="color: rgb(77, 141, 127); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;padding:0px 25px 0px ;"></span>
+    <span id="gameover" style="color: rgb(228, 178, 13); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;padding:0px 95px 0px ;"></span>
+
+<canvas id="canvas"></canvas> 
+</body>
+
+<!--
+for most samples webgl-utils only provides shader compiling/linking and
+canvas resizing because why clutter the examples with code that's the same in every sample.
+See https://webgl2fundamentals.org/webgl/lessons/webgl-boilerplate.html
+and https://webgl2fundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html
+for webgl-utils, m3, m4, and webgl-lessons-ui.
+-->
+
+<script src="https://webgl2fundamentals.org/webgl/resources/webgl-utils.js"></script>
+<script src="https://webgl2fundamentals.org/webgl/resources/webgl-lessons-ui.js"></script>
+<script src="hw.js"></script>
