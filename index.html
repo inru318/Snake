@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    </head>
+
+    <body>
+    <link rel="stylesheet" href="C:\Users\anny2\OneDrive\桌面\pratice\css\main.css">
+    <link rel="stylesheet" href="C:\Users\anny2\OneDrive\桌面\pratice\css\reset.css">
+    <audio id ="backgroundmusic" loop = "true"> 
+        <source src="music/background.mp3" type="audio/mpeg" > 
+    </audio>   
+    <audio id="eatmusic">
+        <source src="music/coin.mp3" type="audio/mpeg" >
+    </audio>
+    <audio id="gameovermusic" loop = false>
+        <source src="music/gameover.mp3" type="audio/mpeg" >
+    </audio>
+    <audio id="wallmusic">
+        <source src="music/wall.mp3" type="audio/mpeg" >
+    </audio>
+    <audio id="bombmusic">
+        <source src="music/bomb.mp3" type="audio/mpeg" >
+    </audio>
+    
+    <div class="menu">
+        <div class="heart">
+            <div class="h_title">     
+                <h1>生命值</h1>           
+            </div>
+            <img class="imgStyle" id="heart5" src="image\love-always-wins.png" alt="生命值5">
+            <img class="imgStyle" id="heart4" src="image\love-always-wins.png" alt="生命值4">
+            <img class="imgStyle" id="heart3" src="image\love-always-wins.png" alt="生命值3">
+            <img class="imgStyle" id="heart2" src="image\love-always-wins.png" alt="生命值2">
+            <img class="imgStyle" id="heart1" src="image\love-always-wins.png" alt="生命值1">
+        </div>
+        <div class="Score">
+            <div class="s_title">
+                <h1>分數</h1>
+            </div>
+            <span id="score" class="scostyle">
+            </span>
+        </div>
+        
+        <div class="game">
+            <div class="g_title">
+                <h1>遊戲說明</h1>
+            </div>
+            <p> <br><b>空白鍵開始遊戲<br/>
+                上下鍵控制速度<br/>
+                左右鍵控制方向<br/>
+                小方塊為炸彈，碰到扣生命值<br/>
+                大方塊則增加分數 :D</b></p>
+            <span id="gameover" style="color: rgb(228, 178, 13);"></span>
+        </div>
+    </div>
+    <canvas id="canvas"> </canvas> 
+    </body>
+<script src="https://webgl2fundamentals.org/webgl/resources/webgl-utils.js"></script>
+<script src="https://webgl2fundamentals.org/webgl/resources/webgl-lessons-ui.js"></script>
+<script src="main.js"></script>
+</html>

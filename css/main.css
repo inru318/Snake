@@ -1,0 +1,90 @@
+@import './reset.css';
+
+.menu{
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(62, 88, 181);
+    float: left;
+}
+
+
+canvas{
+    background-color:rgb(255, 255, 255);
+    height: 99vh;
+    width: 80%;
+}
+
+.h_title{
+    height: 3vh;
+    line-height: 3vh;
+    background-color:rgb(194, 63, 63);
+    text-align: center;
+   
+}
+
+.s_title{
+    height: 6vh;
+    line-height: 6vh;
+    font-size:25px;
+    background-color:rgb(13, 170, 120);
+    text-align: center;  
+}
+
+.g_title{
+    height: 6vh;
+    line-height: 6vh;
+    font-size:25px;
+    background-color:rgba(234, 218, 0, 0.942);
+    text-align: center;  
+}
+
+
+h1{
+    padding-top: 3ch;
+    font-size:20px;
+    color:#fff7fb;
+ }
+
+p{
+    font-size:50px;
+    text-align: center;  
+    line-height:5vh;
+    color:#b63375;   
+}
+
+.heart{
+    margin-top: 2ch;
+    margin-left: 7px;
+    margin-right: 10px;
+    height: 10vh;
+    background-color:rgb(255, 255, 255);
+}
+
+.Score{
+    margin-top: 3ch;
+    margin-left: 7px;
+    margin-right: 10px;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.game{
+    margin-top: 3ch;
+    margin-left: 7px;
+    margin-right: 10px;
+    height: 48vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu .heart .imgStyle{
+    width: 40px;
+    margin-left: 11px;
+    margin-top: 5px;
+}
+
+.menu .Score .scostyle{
+    margin-left: 130px;
+    font-size: 50px;
+    line-height: 23vh;
+    color: rgb(59, 179, 125);
+}
